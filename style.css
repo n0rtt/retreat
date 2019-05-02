@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+    font-family: "Woods";
+    src: url("fonts/From\ the\ Woods.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 67.5%;
+}
+
+body {
+    font-family: "OpenSans", sans-serif;
+    /* background: url("img/bg.jpg");
+    background-size: contain;
+    background-repeat: repeat-y; */
+}
+
+h1 {
+    font-family: "Woods";
+}
